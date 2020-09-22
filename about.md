@@ -2,7 +2,7 @@
 title: 乾林
 permalink: /about/
 layout: page
-excerpt: 大家好，本博客记录我关于编程、算法、计算机科学相关的知识和经验，希望对你也有所帮助。
+excerpt: 本博客记录我关于编程、算法、计算机科学相关的知识和经验，希望对你也有所帮助。
 comments: false
 ---
 
