@@ -213,7 +213,7 @@ body[data-theme="dark"] {
     a.footer_item:not(:last-child) {
       color: $dark-white;
     }
-    .footer_theme-copyright {
+    .footer_copyright {
       color: $dark-gray;
       opacity: 1;
     }
@@ -233,6 +233,15 @@ body[data-theme="dark"] {
     }
     .solution:hover {
       color: $dark-text-link-blue-active;
+    }
+  }  
+
+  .search-article {
+    input[type="search"] {
+      color: $dark-text-base-color;
+      &::-webkit-input-placeholder {
+        color: rgba(128,128,128,0.8);
+      }
     }
   }
 }

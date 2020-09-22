@@ -1,14 +1,14 @@
-- title: home
+- title: 主页
   url: /
   external: false
 
-- title: about
-  url: /about/
-  external: false # set true if you using external link, see bellow
+- title: 存档
+  url: /archive/
+  external: false
 
-#- title: notes
-#  url: /notes/
-#  external: false # set true if you using external link, see bellow
+- title: 关于
+  url: /about/
+  external: false # set true if you using external link, see below
 
 # Example:
 # - title: github

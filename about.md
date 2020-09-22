@@ -1,22 +1,16 @@
 ---
-title: Colophon
+title: 乾林
 permalink: /about/
-layout: about
-excerpt: Hello everyone, I am programmer from China, living in Chengdu. This blog for documentation about my programming journey, climb on jekyll, hosting on [github.io](https://pages.github.com/) and using theme <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>.
+layout: page
+excerpt: 大家好，本博客记录我关于编程、算法、计算机科学相关的知识和经验，希望对你也有所帮助。
 comments: false
 ---
 
-{% include author.html %}
+大家好，本博客记录我关于编程、算法、计算机科学相关的知识和经验，希望对你也有所帮助。
 
-I am programmer from 🇨🇳China🇨🇳, living in Chengdu. This blog for documentation about my programming 🎒 journey 🧗 climb on jekyll, hosting on [github.io](https://pages.github.com/) and using theme <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>;
+如果你有什么问题请在此提 [issues](https://github.com/wuqianlin/wuqianlin.github.io).
 
-If you have a question about me or else, just send a letter to me.
-
-Thanks piharpi for sharing the theme <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>.
-
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-##### may u needs ✨
+**联系我 ✨**
 
 - {{ site.author.email }}
-- [github.com/{{ site.author.username }}](https://github.com/{{ site.author.username }})
+- github.com/{{ site.author.github }}
