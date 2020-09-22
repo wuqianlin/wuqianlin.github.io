@@ -1,33 +1,18 @@
 ---
 title: unicode和utf-8是什么关系
-date: 2019/1/1 0:0:0
-updated: 2019/7/4 14:40:25
-comments: true
+date: 2017-05-20 14:00
+updated: 2017-05-20 14:00
 tags:
-- python
-categories:
-- tool kits
----
-
----
-layout: post
-title: python 信号处理-signal模
-date: 2020-05-29 01:00 +0700
-modified: 2020-05-29 16:49:47 +07:00
-description: python 信号处理-signal模
-categories:
   - python
-tag:
-  - signal
-  - python
-  - software
+categories:
+  - tool kits
 ---
 
 # unicode和utf-8是什么关系
 
 ## 1. ASCII码 
 
-我们知道，在计算机内部，所有的信息最终都表示为一个二进制的字符串。每一个二进制位（bit）有0和1两种状态，因此八个二进制位就可以组合出256种状态，这被称为一个字节（byte）。也就是说，一个字节一共可以用来表示256种不同的状态，每一个状态对应一个符号，就是256个符号，从0000000到11111111。
+在计算机内部，所有的信息都用二进制表示。每一个二进制位（bit）有0和1两种状态，因此8个二进制位就可以组合出256种状态，这被称为一个字节（byte）。一个字节一共可以用来表示256种不同的状态，每一个状态对应一个符号，就是256个符号，从0000000到11111111。
 
 上个世纪60年代，美国制定了一套字符编码，对英语字符与二进制位之间的关系，做了统一规定。这被称为ASCII码，一直沿用至今。 
 
@@ -75,14 +60,13 @@ UTF-8的编码规则很简单，只有二条：
 
 下表总结了编码规则，字母x表示可用编码的位。 
 
-Unicode符号范围 | UTF-8编码方式 
-(十六进制) | （二进制） 
-
---------------------+--------------------------------------------- 
-0000 0000-0000 007F | 0xxxxxxx 
-0000 0080-0000 07FF | 110xxxxx 10xxxxxx 
-0000 0800-0000 FFFF | 1110xxxx 10xxxxxx 10xxxxxx 
-0001 0000-0010 FFFF | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx 
+Unicode符号范围 || UTF-8编码方式  
+（十六进制） | （二进制）  
+--------------------+---------------------------------------------  
+0000 0000-0000 007F | 0xxxxxxx  
+0000 0080-0000 07FF | 110xxxxx 10xxxxxx  
+0000 0800-0000 FFFF | 1110xxxx 10xxxxxx 10xxxxxx  
+0001 0000-0010 FFFF | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx  
 
 下面，还是以汉字“严”为例，演示如何实现UTF-8编码。 
 
@@ -124,12 +108,12 @@ Unicode规范中定义，每一个文件的最前面分别加入一个表示编�
 
 [How many characters can be mapped with Unicode?](https://stackoverflow.com/questions/5924105/how-many-characters-can-be-mapped-with-unicode)
 
-http://www.unicode.org/versions/
+[http://www.unicode.org/versions/](http://www.unicode.org/versions/)
 
-https://en.wikipedia.org/wiki/Unicode#Versions
+[https://en.wikipedia.org/wiki/Unicode#Versions](https://en.wikipedia.org/wiki/Unicode#Versions)
 
-http://www.babelstone.co.uk/Unicode/HowMany.html
+[http://www.babelstone.co.uk/Unicode/HowMany.html](http://www.babelstone.co.uk/Unicode/HowMany.html)
 
-https://tex.stackexchange.com/questions/374586/how-can-i-use-new-unicode-characters
+[https://tex.stackexchange.com/questions/374586/how-can-i-use-new-unicode-characters](https://tex.stackexchange.com/questions/374586/how-can-i-use-new-unicode-characters)
 
  

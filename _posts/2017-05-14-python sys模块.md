@@ -1,8 +1,8 @@
 ---
 layout: post
 title: python之sys模块详解
-date: 2020-05-29 01:00 +0700
-modified: 2020-05-29 16:49:47 +07:00
+date: 2017-05-14 04:00
+modified: 2017-05-14 04:00
 description: python之sys模块详解
 categories:
   - python
@@ -12,7 +12,7 @@ tag:
   - software
 ---
 
-# Python之sys模块详解
+# python之sys模块详解
 
 > sys 模块包含了与解释器及其操作环境有关的变量和函数。
 

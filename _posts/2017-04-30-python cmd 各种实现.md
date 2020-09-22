@@ -1,8 +1,8 @@
 ---
 layout: post
 title: python cmd 各种实现
-date: 2019-01-29 01:00 +0700
-modified: 2019-03-07 16:49:47 +07:00
+date: 2017-04-30 12:00:00 +0800
+modified: 2017-04-30 12:00:00 +0800
 description: Python cmd 各种实现
 categories:
   - python

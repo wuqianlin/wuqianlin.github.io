@@ -1,9 +1,11 @@
 ---
 layout: post
 title: python bytes与字符串的相互转化
-date: 2019-01-01 01:00 +0700
-modified: 2019-01-01 16:49:47 +07:00
+date: 2017-04-28 11:30 +0800
+modified: 2017-04-28 11:30 +0800
 description: python bytes与字符串的相互转化
+categories:
+  - python
 tag:
   - python
   - software
@@ -41,4 +43,3 @@ print(b)
 b=str1.encode('utf-8')
 print(b)
 ```
-

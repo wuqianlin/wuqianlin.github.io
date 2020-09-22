@@ -1,13 +1,14 @@
 ---
 layout: post
 title: pip 离线安装 python 模块
-date: 2020-01-29 01:00 +0700
-modified: 2020-03-07 16:49:47 +07:00
+date: 2020-01-29 16:49:47 +0800
+modified: 2020-01-29 16:49:47 +0800
 description: pip 离线安装 python 模块
+categories:
+  - python
 tag:
   - pip
   - python
-  - software
 ---
 
 ### pip离线安装python模块
@@ -21,7 +22,6 @@ tag:
   或
   pip download  -d  packs  -r  requirements.txt    # 下载 requirements.txt 列出的所有包
   ```
-  
   
 2. 安装指定的离线包
   ```bash

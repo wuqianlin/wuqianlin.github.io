@@ -1,21 +1,20 @@
 ---
 layout: post
 title: python 信号处理-signal模
-date: 2020-05-29 01:00 +0700
-modified: 2020-05-29 16:49:47 +07:00
+date: 2017-05-10 12:00
+modified: 2017-05-10 12:00
 description: python 信号处理-signal模
 categories:
   - python
 tag:
   - signal
   - python
-  - software
 ---
 
 
-## Python 信号处理-signal模
+## python 信号处理-signal模
 
-Python中对信号处理的模块主要是使用signal模块，但signal主要是针对Unix系统，所以在Windows平台上Python不能很好的发挥信号处理的功能。
+python 对信号处理主要使用signal模块，但signal主要是针对Unix系统，所以在Windows平台上python不能很好的发挥信号处理的功能。
 
 要查看Python中的信号量，可以使用dir(signal)来查看。
 
@@ -74,7 +73,7 @@ kill -9 <pid> # 最后杀死进程
 
 此时可以看到test.py的输出，打印的就是具体接收到的信号。
 
-这里注意一点就是程序中注册了SIGINT信号，所以在运行程序后使用CTRL+C并不能结束进程，而是仍然打印进程接收到的信号。
+需要注意的是程序中注册了SIGINT信号，所以在运行程序后使用CTRL+C并不能结束进程，而是仍然打印进程接收到的信号。
 
 
 
