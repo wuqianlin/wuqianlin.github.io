@@ -1,8 +1,7 @@
 # Site settings
 title: 乾林 Blogs # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  在此分享自己关于编程、算法、计算机科学相关的知识和经验。  
 lang: zh-CN
 timezone: Asia/Shanghai
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -60,7 +59,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 10
+number_of_posts: 12
 
 # Build settings
 # theme: klise

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: pip 离线安装 python 模块
-date: 2020-01-29 16:49:47 +0800
-modified: 2020-01-29 16:49:47 +0800
+date: 2019-01-29 16:49:47 +0800
+modified: 2019-01-29 16:49:47 +0800
 description: pip 离线安装 python 模块
 categories:
   - python
